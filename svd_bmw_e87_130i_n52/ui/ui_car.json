@@ -1,0 +1,202 @@
+{
+  "name": "BMW E87 130i N52 (265 hp NA)",
+  "brand": "BMW",
+  "class": "street",
+  "country": "Germany",
+  "description": "BMW E87 130i - N52B30, 3.0L naturally aspirated straight-six, 265 hp (195 kW) @ 6600 rpm, 315 Nm @ 2500-2750 rpm, 6-speed manual, RWD  |  Factory data: 1375 kg (DIN), 6.1 s 0-100 km/h<br><br>135i N54 to 130i N52 conversion: engine, power and torque curves, drivetrain and weight set to 130i factory specs, 205/50 R17 tyres with Street + Semislicks compounds, ABS and traction control fitted, both switchable.<br><br>Mod created by SofianeGh - https://github.com/SofianeGh<br>3D model by Stefano Volante (SVD BMW E87 135i N54)<br>Sound by ASW (BMW 330i E90)",
+  "tags": [
+    "rwd",
+    "manual",
+    "street",
+    "germany",
+    "naturally aspirated",
+    "abs",
+    "traction control",
+    "SVD"
+  ],
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      90.0
+    ],
+    [
+      1000.0,
+      215.0
+    ],
+    [
+      1250.0,
+      245.0
+    ],
+    [
+      1500.0,
+      268.0
+    ],
+    [
+      1750.0,
+      287.0
+    ],
+    [
+      2000.0,
+      300.0
+    ],
+    [
+      2250.0,
+      309.0
+    ],
+    [
+      2500.0,
+      313.0
+    ],
+    [
+      2750.0,
+      315.0
+    ],
+    [
+      3000.0,
+      314.0
+    ],
+    [
+      3500.0,
+      312.0
+    ],
+    [
+      4000.0,
+      311.0
+    ],
+    [
+      4500.0,
+      309.0
+    ],
+    [
+      5000.0,
+      305.0
+    ],
+    [
+      5500.0,
+      298.0
+    ],
+    [
+      6000.0,
+      290.0
+    ],
+    [
+      6250.0,
+      286.0
+    ],
+    [
+      6600.0,
+      282.2
+    ],
+    [
+      6750.0,
+      273.0
+    ],
+    [
+      7000.0,
+      262.0
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      6.407
+    ],
+    [
+      1000.0,
+      30.612
+    ],
+    [
+      1250.0,
+      43.604
+    ],
+    [
+      1500.0,
+      57.236
+    ],
+    [
+      1750.0,
+      71.51
+    ],
+    [
+      2000.0,
+      85.427
+    ],
+    [
+      2250.0,
+      98.989
+    ],
+    [
+      2500.0,
+      111.412
+    ],
+    [
+      2750.0,
+      123.336
+    ],
+    [
+      3000.0,
+      134.121
+    ],
+    [
+      3500.0,
+      155.478
+    ],
+    [
+      4000.0,
+      177.12
+    ],
+    [
+      4500.0,
+      197.978
+    ],
+    [
+      5000.0,
+      217.128
+    ],
+    [
+      5500.0,
+      233.359
+    ],
+    [
+      6000.0,
+      247.74
+    ],
+    [
+      6250.0,
+      254.503
+    ],
+    [
+      6600.0,
+      265.184
+    ],
+    [
+      6750.0,
+      262.369
+    ],
+    [
+      7000.0,
+      261.123
+    ]
+  ],
+  "specs": {
+    "bhp": "265 hp",
+    "torque": "315 Nm",
+    "weight": "1375kg",
+    "topspeed": "250km/h",
+    "acceleration": "6.1s",
+    "pwratio": "5.2 kg/hp",
+    "range": "80"
+  },
+  "author": "SofianeGh",
+  "url": "https://github.com/SofianeGh",
+  "version": "1.0",
+  "year": 2006
+}

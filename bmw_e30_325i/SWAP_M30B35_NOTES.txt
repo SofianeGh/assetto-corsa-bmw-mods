@@ -1,0 +1,29 @@
+BMW E30 325i -> swap M30B35 (3.4 L, ex E34 535i / E32 735i), version 230 ch
+
+Moteur (engine.ini / power.lut)
+- 230 ch a ~5750 tr/min, couple max ~326 Nm a 4000 tr/min (valeurs reelles, echelle x0.94 comme le mod d'origine)
+- Limiteur 6500 tr/min, seuil de degats 7000, ralenti 780, inertie 0.155, frein moteur 78 Nm
+
+Transmission (drivetrain.ini)
+- Boite manuelle 5 rapports (Getrag, rapports d'origine), pont 3.64
+- Differentiel non autobloquant (POWER=0, COAST=0, PRELOAD=0)
+- Embrayage 460 Nm
+
+Pneus (tyres.ini) : 215/40 R17 sur tous les composes
+- largeur 0.215 m, rayon 0.3019 m, jante 0.2443 m, inertie x1.22x1.03, raideur x1.12x1.15, FZ0 x1.10x1.05 (vs 325i d'origine)
+
+Masse / chassis (base 316i)
+- 316i ~1000 kg + M30B35 (+92) + trains/freins/boite 325i (+30) + extras demandes (+20) - radiateur alu et ligne inox (-10) = 1132 kg sans pilote, 1207 kg avec pilote
+- Repartition avant 54.5 % (estimation)
+- Trains 325i d'origine : ressorts AV 21000, AR 18128, barre AR 20100 ; freinage 1800 Nm (1700 + 5 % semi-ceramique)
+
+Composition (ref. utilisateur)
+- Caisse/trains AV-AR/transmission 325i, filtre + barres de renfort AV et AR, boite et embrayage renforces
+- Reste en pieces de 316, radiateur alu, ligne inox complete (collecteur + silencieux)
+- Maitre-cylindre de frein de 206, disques et plaquettes semi-ceramiques -> couple de freinage 1800 Nm
+- Non simulables dans AC (aucun parametre) : barres de renfort, radiateur alu, maitre-cylindre ; l'echappement/filtre sont couverts par les 230 ch et le son
+
+Direction : STEER_LOCK 900 deg, STEER_RATIO 27.1 (angle max des roues inchange, ~33.2 deg)
+
+Son : bank de la BMW E34 M5 (sts_e34_m5_facelift) renomme, GUIDs.txt adapte.
+Vitesse maxi / 0-100 : estimations, pas des mesures.

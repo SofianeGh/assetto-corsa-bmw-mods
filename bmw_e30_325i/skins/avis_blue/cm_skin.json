@@ -1,0 +1,11 @@
+{
+  "carPaint": {
+    "color": "#FF170835",
+    "flakes": 0.777,
+    "patternNumber": 0,
+    "enabled": true
+  },
+  "licensePlate": {
+    "style": "Europe"
+  }
+}
